@@ -36,14 +36,18 @@
         </nav>
         <ul class="adress header-adress">
           <li>
-            <a href="mailto:info@devstudio.com" class="adress-link"
-              >info@devstudio.com</a
-            >
+            <a href="mailto:info@devstudio.com" class="adress-link">
+              <svg class="header-icon">
+                <use href="./images/header-icons.svg#icon-envelope">
+                </use>
+              </svg>info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="adress-link"
-              >+38 096 111 11 11</a
-            >
+            <a href="tel:+380961111111" class="adress-link">
+              <svg class="header-icon">
+                <use href="./images/header-icons.svg#icon-smartphone">
+                </use>
+              </svg>+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -204,15 +208,47 @@
     <!-- footer -->
     <footer>
       <div class="container footer">
-        <a href="/" class="logo">Web<span>Studio</span></a>
-        <address class="adress footer-adress">
-          <span class="location-adress">г. Киев, пр-т Леси Украинки, 26</span
-          >
-          <a href="mailto:info@example.com" class="adress-link"
-            >info@example.com</a
-          >
-          <a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a>
-        </address>
+        <div>
+          <a href="/" class="logo">Web<span>Studio</span></a>
+          <address class="adress footer-adress">
+            <span class="location-adress">г. Киев, пр-т Леси Украинки, 26</span>
+            <a href="mailto:info@example.com" class="adress-link">info@example.com</a>
+            <a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a>
+          </address>
+        </div>
+        <div class="promo-section">
+          <h3>Присоединяйтесь</h3>
+          <ul class="footer-socials">
+            <li class="footer-socials-item">
+              <a class="footer-socials-link blue" href="#">
+                <svg class="footer-socials-icon">
+                  <use href="./images/socials.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link blue" href="#">
+                <svg class="footer-socials-icon blue">
+                  <use href="./images/socials.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link blue" href="#">
+                <svg class="footer-socials-icon">
+                  <use href="./images/socials.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a class="footer-socials-link blue" href="#">
+                <svg class="footer-socials-icon">
+                  <use href="./images/socials.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
