@@ -1,6 +1,6 @@
 :root {
   --background-white: #ffffff;
-  --color-blue: #2196f3;
+  --color-blue: #2196f3;s
   --color-black: #212121;
   --color-gray: #757575;
   --background-black: #2f303a;
@@ -190,6 +190,8 @@ footer .adress .adress-link {
 /* hero section */
 
 .hero-section {
+  max-width: 1600px;
+  margin: 0 auto;
   background-color: var(--background-black);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -202,7 +204,6 @@ footer .adress .adress-link {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
-  box-shadow: inset 0 0 0 100vmax rgba(47, 48, 58, 0.4);
 }
 
 .container h1 {
